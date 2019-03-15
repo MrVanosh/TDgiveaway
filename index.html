@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      body {
+        margin: 0;
+        margin-top: 10px;
+        padding: 0;
+        width: 320px;
+        background-image: url('imgs/bg.jpg');
+        color: white;
+        font-size: 15px;
+      }
+      input {
+        height: 30px;
+        font-size: 13px;
+        border-radius: 5px;
+      }
+      #losuj {
+        width: 100%;
+        height: 50px;
+        border: none;
+        background-color: #36802d;
+        margin-top: 10px;
+        color: white;
+        border-radius: 2px;
+      }
+      #end {
+        float: right;
+      }
+      h2 {
+        text-align: center;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <input type="date" id="start"> -<input type="date" id="end">
+    <div class="losowanie"></div>
+    <div class="win"></div>
+    <button id="losuj">Losuj!</button>
+    <script src="script.js"></script>
+  </body>
+</html>

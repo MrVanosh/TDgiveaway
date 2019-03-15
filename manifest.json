@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "TDgiveaway",
+  "version": "1.0",
+  "description": "Pick random people by day on Tip and Donation",  "author": "Mateusz Iwaniszczuk",
+
+  "browser_action": {
+    "default_icon": {
+      "16": "imgs/td16.png",
+      "24": "imgs/td24.png",
+      "32": "imgs/td32.png",
+      "48": "imgs/td48.png",
+      "64": "imgs/td64.png",
+      "128": "imgs/td128.png"
+    },
+    "default_title": "Giveaway",
+    "default_popup": "index.html"
+  },
+
+  "permissions": ["activeTab", "<all_urls>"]
+}
